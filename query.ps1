@@ -2,7 +2,10 @@
 [reflection.Assembly]::LoadFrom("C:\Users\Administrator\windows-resource-leak-test\MySql.Data.dll")
 # 検索文字列ファイル
 $searchStrFile="C:\Users\Administrator\windows-resource-leak-test\searchStr.txt"
-$MySQLConnectionStr = "server=localhost;port=3306;uid=yyyy;database=xxxxxxxx;password=zzzzzzzz;Pooling=False"
+# 接続情報
+$MySQLConnectionStr = "server=localhost;port=3306;uid=root;database=mroonga_test;password=zzzzzzzz;Pooling=False"
+# 接続情報：パスワードを設定している場合
+# $MySQLConnectionStr = "server=localhost;port=3306;uid=root;database=mroonga_test;password=zzzzzzzz;Pooling=False"
 #log
 $qcLog="C:\Users\Administrator\windows-resource-leak-test\qcLog_"+(Get-Date).ToString("yyyyMMdd")+".txt"
  ##########

@@ -1,0 +1,489 @@
+2018-01-01  0:00:39 4892 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-01  0:18:58 4216 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01  0:18:58 4216 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01  0:18:58 4216 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01  0:18:58 4216 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01  0:18:58 4216 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01  0:18:58 4216 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01  0:18:58 4216 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01  0:18:58 4216 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01  0:18:58 4216 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01  0:18:58 4216 [Note] InnoDB: The log sequence numbers 234382656 and 234382656 in ibdata files do not match the log sequence number 234382666 in the ib_logfiles!
+2018-01-01  0:18:58 4216 [Note] InnoDB: Database was not shutdown normally!
+2018-01-01  0:18:58 4216 [Note] InnoDB: Starting crash recovery.
+2018-01-01  0:18:58 4216 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2018-01-01  0:18:58 4216 [Note] InnoDB: Restoring possible half-written data pages 
+2018-01-01  0:18:58 4216 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 1469, file name .\mysql-bin.000410
+2018-01-01  0:18:59 4216 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01  0:18:59 4216 [Note] InnoDB: Waiting for purge to start
+2018-01-01  0:18:59 4216 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382666
+2018-01-01  0:18:59 4112 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01  0:18:59 4216 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01  0:18:59 4216 [Note] Recovering after a crash using mysql-bin
+2018-01-01  0:18:59 4216 [Note] Starting crash recovery...
+2018-01-01  0:18:59 4216 [Note] Crash recovery finished.
+2018-01-01  0:18:59 4216 [Note] Server socket created on IP: '::'.
+2018-01-01  0:18:59 4216 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01  1:00:02 3872 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-01  1:00:02 3872 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-01  1:00:03 2364 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-01  1:00:03 3872 [Note] InnoDB: Starting shutdown...
+2018-01-01  1:00:03 3872 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-01  1:00:04 3872 [Note] InnoDB: Shutdown completed; log sequence number 234382676
+2018-01-01  1:00:07 3872 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-01  1:00:07 4364 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01  1:00:07 4364 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01  1:00:07 4364 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01  1:00:07 4364 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01  1:00:07 4364 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01  1:00:07 4364 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01  1:00:07 4364 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01  1:00:07 4364 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01  1:00:07 4364 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01  1:00:08 4364 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01  1:00:08 4364 [Note] InnoDB: Waiting for purge to start
+2018-01-01  1:00:08 4364 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382676
+2018-01-01  1:00:08 4364 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01  1:00:08 216 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01  1:00:08 4364 [Note] Server socket created on IP: '::'.
+2018-01-01  1:00:08 4364 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01  1:52:02 2940 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-01  1:56:06 4048 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01  1:56:06 4048 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01  1:56:06 4048 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01  1:56:06 4048 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01  1:56:06 4048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01  1:56:06 4048 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01  1:56:06 4048 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01  1:56:06 4048 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01  1:56:06 4048 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01  1:56:06 4048 [Note] InnoDB: The log sequence numbers 234382676 and 234382676 in ibdata files do not match the log sequence number 234382686 in the ib_logfiles!
+2018-01-01  1:56:06 4048 [Note] InnoDB: Database was not shutdown normally!
+2018-01-01  1:56:06 4048 [Note] InnoDB: Starting crash recovery.
+2018-01-01  1:56:06 4048 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2018-01-01  1:56:06 4048 [Note] InnoDB: Restoring possible half-written data pages 
+2018-01-01  1:56:06 4048 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 1469, file name .\mysql-bin.000410
+2018-01-01  1:56:07 4048 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01  1:56:07 4048 [Note] InnoDB: Waiting for purge to start
+2018-01-01  1:56:07 4048 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382686
+2018-01-01  1:56:07 3168 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01  1:56:07 4048 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01  1:56:07 4048 [Note] Recovering after a crash using mysql-bin
+2018-01-01  1:56:07 4048 [Note] Starting crash recovery...
+2018-01-01  1:56:07 4048 [Note] Crash recovery finished.
+2018-01-01  1:56:07 4048 [Note] Server socket created on IP: '::'.
+2018-01-01  1:56:07 4048 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01  2:49:05 1524 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-01  3:13:37 3932 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01  3:13:37 3932 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01  3:13:37 3932 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01  3:13:37 3932 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01  3:13:37 3932 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01  3:13:37 3932 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01  3:13:37 3932 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01  3:13:37 3932 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01  3:13:37 3932 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01  3:13:37 3932 [Note] InnoDB: The log sequence numbers 234382676 and 234382676 in ibdata files do not match the log sequence number 234382696 in the ib_logfiles!
+2018-01-01  3:13:37 3932 [Note] InnoDB: Database was not shutdown normally!
+2018-01-01  3:13:37 3932 [Note] InnoDB: Starting crash recovery.
+2018-01-01  3:13:37 3932 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2018-01-01  3:13:37 3932 [Note] InnoDB: Restoring possible half-written data pages 
+2018-01-01  3:13:37 3932 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 1469, file name .\mysql-bin.000410
+2018-01-01  3:13:38 3932 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01  3:13:38 3932 [Note] InnoDB: Waiting for purge to start
+2018-01-01  3:13:38 3932 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382696
+2018-01-01  3:13:38 4476 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01  3:13:38 3932 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01  3:13:38 3932 [Note] Recovering after a crash using mysql-bin
+2018-01-01  3:13:38 3932 [Note] Starting crash recovery...
+2018-01-01  3:13:38 3932 [Note] Crash recovery finished.
+2018-01-01  3:13:38 3932 [Note] Server socket created on IP: '::'.
+2018-01-01  3:13:38 3932 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01  5:46:37 3520 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-01  9:08:36 3512 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-01  9:08:37 3512 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-01  9:08:37 2264 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-01  9:08:37 3512 [Note] InnoDB: Starting shutdown...
+2018-01-01  9:08:37 3512 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-01  9:08:38 3512 [Note] InnoDB: Shutdown completed; log sequence number 234382706
+2018-01-01  9:08:38 3512 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-01  9:45:19 136 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01  9:45:19 136 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01  9:45:19 136 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01  9:45:19 136 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01  9:45:19 136 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01  9:45:19 136 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01  9:45:19 136 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01  9:45:19 136 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01  9:45:19 136 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01  9:45:20 136 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01  9:45:20 136 [Note] InnoDB: Waiting for purge to start
+2018-01-01  9:45:20 136 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382706
+2018-01-01  9:45:20 3836 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01  9:45:20 136 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01  9:45:20 136 [Note] Server socket created on IP: '::'.
+2018-01-01  9:46:54 136 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01 12:01:37 4876 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-01 18:46:32 308 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-01 18:46:32 308 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-01 18:46:32 308 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-01 18:46:32 308 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-01 18:46:32 308 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-01 18:46:32 308 [Note] InnoDB: Using generic crc32 instructions
+2018-01-01 18:46:32 308 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-01 18:46:32 308 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-01 18:46:32 308 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-01 18:46:32 308 [Note] InnoDB: The log sequence numbers 234382706 and 234382706 in ibdata files do not match the log sequence number 234382716 in the ib_logfiles!
+2018-01-01 18:46:32 308 [Note] InnoDB: Database was not shutdown normally!
+2018-01-01 18:46:32 308 [Note] InnoDB: Starting crash recovery.
+2018-01-01 18:46:32 308 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2018-01-01 18:46:32 308 [Note] InnoDB: Restoring possible half-written data pages 
+2018-01-01 18:46:32 308 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 1469, file name .\mysql-bin.000410
+2018-01-01 18:46:33 308 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-01 18:46:33 308 [Note] InnoDB: Waiting for purge to start
+2018-01-01 18:46:33 308 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382716
+2018-01-01 18:46:33 3892 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-01 18:46:33 308 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-01 18:46:33 308 [Note] Recovering after a crash using mysql-bin
+2018-01-01 18:46:33 308 [Note] Starting crash recovery...
+2018-01-01 18:46:33 308 [Note] Crash recovery finished.
+2018-01-01 18:46:33 308 [Note] Server socket created on IP: '::'.
+2018-01-01 18:46:33 308 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-01 19:50:12 4036 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-02  1:00:03 4472 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-02  1:00:03 4472 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-02  1:00:03 4368 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-02  1:00:03 4472 [Note] InnoDB: Starting shutdown...
+2018-01-02  1:00:03 4472 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-02  1:00:04 4472 [Note] InnoDB: Shutdown completed; log sequence number 234382726
+2018-01-02  1:00:05 4472 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-02  1:02:12 3640 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-02  1:02:12 3640 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-02  1:02:12 3640 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-02  1:02:12 3640 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-02  1:02:12 3640 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-02  1:02:12 3640 [Note] InnoDB: Using generic crc32 instructions
+2018-01-02  1:02:12 3640 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-02  1:02:12 3640 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-02  1:02:12 3640 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-02  1:02:13 3640 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-02  1:02:13 3640 [Note] InnoDB: Waiting for purge to start
+2018-01-02  1:02:13 3640 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382726
+2018-01-02  1:02:13 3936 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-02  1:02:13 3640 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-02  1:02:13 3640 [Note] Server socket created on IP: '::'.
+2018-01-02  1:02:13 3640 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-02  2:10:20 3416 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-02  2:39:17 4372 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-02  2:39:17 4372 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-02  2:39:17 1444 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-02  2:39:17 4372 [Note] InnoDB: Starting shutdown...
+2018-01-02  2:39:17 4372 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-02  2:39:18 4372 [Note] InnoDB: Shutdown completed; log sequence number 234382736
+2018-01-02  2:39:18 4372 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-02  2:39:48 3916 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-02  2:39:48 3916 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-02  2:39:48 3916 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-02  2:39:48 3916 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-02  2:39:48 3916 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-02  2:39:48 3916 [Note] InnoDB: Using generic crc32 instructions
+2018-01-02  2:39:48 3916 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-02  2:39:48 3916 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-02  2:39:48 3916 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-02  2:39:49 3916 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-02  2:39:49 3916 [Note] InnoDB: Waiting for purge to start
+2018-01-02  2:39:49 3916 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382736
+2018-01-02  2:39:49 3916 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-02  2:39:49 1960 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-02  2:39:49 3916 [Note] Server socket created on IP: '::'.
+2018-01-02  2:39:49 3916 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-03  2:30:35 1104 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-03  2:30:35 1104 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-03  2:30:35 3672 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-03  2:30:35 1104 [Note] InnoDB: Starting shutdown...
+2018-01-03  2:30:36 1104 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-03  2:30:37 1104 [Note] InnoDB: Shutdown completed; log sequence number 234382746
+2018-01-03  2:30:38 1104 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-03  2:32:51 1820 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-03  2:32:51 1820 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-03  2:32:51 1820 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-03  2:32:51 1820 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-03  2:32:51 1820 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-03  2:32:51 1820 [Note] InnoDB: Using generic crc32 instructions
+2018-01-03  2:32:51 1820 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-03  2:32:51 1820 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-03  2:32:52 1820 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-03  2:32:52 1820 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-03  2:32:52 1820 [Note] InnoDB: Waiting for purge to start
+2018-01-03  2:32:52 1820 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382746
+2018-01-03  2:32:52 228 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-03  2:32:52 1820 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-03  2:32:53 1820 [Note] Server socket created on IP: '::'.
+2018-01-03  2:32:53 1820 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-04  1:00:11 1428 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-04  1:00:11 1428 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-04  1:00:12 788 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-04  1:00:12 1428 [Note] InnoDB: Starting shutdown...
+2018-01-04  1:00:12 1428 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-04  1:00:13 1428 [Note] InnoDB: Shutdown completed; log sequence number 234382756
+2018-01-04  1:00:16 1428 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-04  1:00:17 2752 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-04  1:00:17 2752 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-04  1:00:17 2752 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-04  1:00:17 2752 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-04  1:00:17 2752 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-04  1:00:17 2752 [Note] InnoDB: Using generic crc32 instructions
+2018-01-04  1:00:17 2752 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-04  1:00:17 2752 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-04  1:00:17 2752 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-04  1:00:17 2752 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-04  1:00:17 2752 [Note] InnoDB: Waiting for purge to start
+2018-01-04  1:00:17 2752 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382756
+2018-01-04  1:00:17 956 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-04  1:00:17 2752 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-04  1:00:17 2752 [Note] Server socket created on IP: '::'.
+2018-01-04  1:00:17 2752 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-05  1:00:01 3016 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-05  1:00:01 3016 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-05  1:00:01 2960 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-05  1:00:01 3016 [Note] InnoDB: Starting shutdown...
+2018-01-05  1:00:02 3016 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-05  1:00:03 3016 [Note] InnoDB: Shutdown completed; log sequence number 234382766
+2018-01-05  1:00:06 3016 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-05  1:00:06 2708 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-05  1:00:06 2708 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-05  1:00:06 2708 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-05  1:00:06 2708 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-05  1:00:06 2708 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-05  1:00:06 2708 [Note] InnoDB: Using generic crc32 instructions
+2018-01-05  1:00:06 2708 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-05  1:00:06 2708 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-05  1:00:07 2708 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-05  1:00:07 2708 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-05  1:00:07 2708 [Note] InnoDB: Waiting for purge to start
+2018-01-05  1:00:07 2708 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234382766
+2018-01-05  1:00:07 3932 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-05  1:00:07 2708 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-05  1:00:07 2708 [Note] Server socket created on IP: '::'.
+2018-01-05  1:00:07 2708 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-06  9:12:24 728 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-06  9:54:09 2480 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-06  9:54:09 2480 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-06  9:54:10 2324 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-06  9:54:10 2480 [Note] InnoDB: Starting shutdown...
+2018-01-06  9:54:11 2480 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-06  9:54:12 2480 [Note] InnoDB: Shutdown completed; log sequence number 234384038
+2018-01-06  9:54:15 2480 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-06  9:54:47 5020 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-06  9:54:47 5020 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-06  9:54:47 5020 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-06  9:54:47 5020 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-06  9:54:47 5020 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-06  9:54:47 5020 [Note] InnoDB: Using generic crc32 instructions
+2018-01-06  9:54:47 5020 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-06  9:54:47 5020 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-06  9:54:47 5020 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-06  9:54:48 5020 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-06  9:54:48 5020 [Note] InnoDB: Waiting for purge to start
+2018-01-06  9:54:48 5020 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234384038
+2018-01-06  9:54:48 5020 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-06  9:54:48 844 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-06  9:54:48 5020 [Note] Server socket created on IP: '::'.
+2018-01-06  9:54:48 5020 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-07  4:08:11 1996 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-07 04:23:22 eb8  InnoDB: Assertion failure in thread 3768 in file os0file.cc line 514
+InnoDB: Failing assertion: h
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+2018-01-07  9:43:42 4720 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-07  9:43:42 4720 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-07  9:43:43 3520 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-07  9:43:43 4720 [Note] InnoDB: Starting shutdown...
+2018-01-07  9:43:44 4720 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-07  9:43:45 4720 [Note] InnoDB: Shutdown completed; log sequence number 234384048
+2018-01-07  9:43:50 4720 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-07  9:46:38 1400 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-07  9:46:38 1400 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-07  9:46:38 1400 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-07  9:46:38 1400 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-07  9:46:38 1400 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-07  9:46:38 1400 [Note] InnoDB: Using generic crc32 instructions
+2018-01-07  9:46:38 1400 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-07  9:46:38 1400 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-07  9:46:38 1400 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-07  9:46:38 1400 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-07  9:46:38 1400 [Note] InnoDB: Waiting for purge to start
+2018-01-07  9:46:38 1400 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234384048
+2018-01-07  9:46:38 2884 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-07  9:46:38 1400 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-07  9:46:39 1400 [Note] Server socket created on IP: '::'.
+2018-01-07  9:46:39 1400 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-08  4:40:03 1040 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-08 10:01:04 4272 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-08 10:01:04 4272 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-08 10:01:04 4928 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-08 10:01:04 4272 [Note] InnoDB: Starting shutdown...
+2018-01-08 10:01:06 4272 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-08 10:01:07 4272 [Note] InnoDB: Shutdown completed; log sequence number 234384058
+2018-01-08 10:01:10 4272 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-08 10:04:14 4900 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-08 10:04:14 4900 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-08 10:04:14 4900 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-08 10:04:14 4900 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-08 10:04:14 4900 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-08 10:04:14 4900 [Note] InnoDB: Using generic crc32 instructions
+2018-01-08 10:04:14 4900 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-08 10:04:14 4900 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-08 10:04:14 4900 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-08 10:04:15 4900 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-08 10:04:15 4900 [Note] InnoDB: Waiting for purge to start
+2018-01-08 10:04:15 4900 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234384058
+2018-01-08 10:04:15 3420 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-08 10:04:15 4900 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-08 10:04:15 4900 [Note] Server socket created on IP: '::'.
+2018-01-08 10:04:15 4900 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-09  4:29:29 4444 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+
+
+2018-01-09 14:30:04 2040 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-09 14:30:04 2040 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-09 14:30:07 4664 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-09 14:30:07 2040 [Note] InnoDB: Starting shutdown...
+2018-01-09 14:30:08 2040 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-09 14:30:10 2040 [Note] InnoDB: Shutdown completed; log sequence number 234384068
+2018-01-09 14:30:13 2040 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-09 14:30:15 4728 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-09 14:30:15 4728 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-09 14:30:15 4728 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-09 14:30:15 4728 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-09 14:30:15 4728 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-09 14:30:15 4728 [Note] InnoDB: Using generic crc32 instructions
+2018-01-09 14:30:15 4728 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-09 14:30:15 4728 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-09 14:30:15 4728 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-09 14:30:16 4728 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-09 14:30:16 4728 [Note] InnoDB: Waiting for purge to start
+2018-01-09 14:30:16 4728 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234384068
+2018-01-09 14:30:16 4728 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-09 14:30:16 2600 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-09 14:30:16 4728 [Note] Server socket created on IP: '::'.
+2018-01-09 14:30:16 4728 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-09 14:32:11 3676 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-09 14:32:11 3676 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-09 14:32:12 2828 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-09 14:32:12 3676 [Note] InnoDB: Starting shutdown...
+2018-01-09 14:32:14 3676 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-09 14:32:15 3676 [Note] InnoDB: Shutdown completed; log sequence number 234384078
+2018-01-09 14:32:15 3676 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-09 14:32:16 3100 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-09 14:32:16 3100 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-09 14:32:16 3100 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-09 14:32:16 3100 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-09 14:32:16 3100 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-09 14:32:16 3100 [Note] InnoDB: Using generic crc32 instructions
+2018-01-09 14:32:16 3100 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-09 14:32:16 3100 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-09 14:32:16 3100 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-09 14:32:16 3100 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-09 14:32:16 3100 [Note] InnoDB: Waiting for purge to start
+2018-01-09 14:32:16 3100 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234384078
+2018-01-09 14:32:16 2064 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-09 14:32:16 3100 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-09 14:32:16 3100 [Note] Server socket created on IP: '::'.
+2018-01-09 14:32:16 3100 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-10  2:32:14 3236 [Note] D:\MySQL_Mroonga\bin\mysqld: Normal shutdown
+
+2018-01-10  2:32:14 3236 [Note] Event Scheduler: Purging the queue. 0 events
+2018-01-10  2:32:14 4276 [Note] InnoDB: FTS optimize thread exiting.
+2018-01-10  2:32:14 3236 [Note] InnoDB: Starting shutdown...
+2018-01-10  2:32:15 3236 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2018-01-10  2:32:16 3236 [Note] InnoDB: Shutdown completed; log sequence number 234415561
+2018-01-10  2:32:18 3236 [Note] D:\MySQL_Mroonga\bin\mysqld: Shutdown complete
+
+2018-01-10  2:35:11 1900 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-01-10  2:35:11 1900 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-01-10  2:35:11 1900 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-01-10  2:35:11 1900 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-01-10  2:35:11 1900 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-01-10  2:35:11 1900 [Note] InnoDB: Using generic crc32 instructions
+2018-01-10  2:35:11 1900 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2018-01-10  2:35:11 1900 [Note] InnoDB: Completed initialization of buffer pool
+2018-01-10  2:35:11 1900 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-01-10  2:35:12 1900 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-01-10  2:35:12 1900 [Note] InnoDB: Waiting for purge to start
+2018-01-10  2:35:12 1900 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 234415561
+2018-01-10  2:35:12 1652 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-01-10  2:35:12 1900 [Note] Plugin 'FEEDBACK' is disabled.
+2018-01-10  2:35:12 1900 [Note] Server socket created on IP: '::'.
+2018-01-10  2:35:12 1900 [Note] D:\MySQL_Mroonga\bin\mysqld: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  Source distribution
+2018-01-11  6:27:22 1072 [ERROR] Error in accept

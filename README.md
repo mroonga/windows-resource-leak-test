@@ -5,6 +5,7 @@
 Windows:
 
   * Windows Server 2012 R2
+  * Windows 10
 
 MariaDB + Mroonga：
 
@@ -13,7 +14,7 @@ MariaDB + Mroonga：
 
 ## 確認方法
 
-Windowsを用意します。たとえばWindows 10など再現が確認されていない環境でも大丈夫です。その環境では再現しないことがわかるというのも重要な情報なので。
+Windowsを用意します。たとえばWindows 10など再現が確認されていない環境でも大丈夫です。その環境では再現しないことがわかるというのも重要な情報です。
 
 上述の再現が確認されているMariaDB + Mroongaのどれかをダウンロードして、展開します。
 
@@ -48,18 +49,33 @@ Windowsを用意します。たとえばWindows 10など再現が確認されて
 > bin\mysql.exe -u root mroonga_test < C:\Users\Administrator\windows-resource-leak-test\xxxxxxxx_dat_static_page2.sql
 ```
 
-このリポジトリー内のテストスクリプト`query.ps1`を実行します。
-
-TODO: PowerShellスクリプトはデフォルトでは実行できないのでそこらへんのことを書かないといけない。
+このリポジトリー内のテストスクリプト`query.ps1`を実行します。セキュリティーのため、PowerShellスクリプトはデフォルトでは実行できないようになっています。管理者権限で[`Set-ExecutionPolicy Unrestricted`](https://technet.microsoft.com/ja-jp/library/ee176961.aspx)を実行して制限を緩める必要があります。
 
 ```text
 > cd C:\Users\Administrator\windows-resource-leak-test
+> Set-ExecutionPolicy Unrestricted
 > .\query.ps1
 ```
 
-ターミナルを複数立ち上げて同時に実行すると再現する時間が短くなります。
+このスクリプトを実行し続け、約52万クエリー発行程度で以下のどれかの問題が発生するはずです。
 
-タスクマネージャー？で`mysqld.exe`のメモリー使用量を確認します。再現していれば、接続エラーになるまで待たなくてもメモリー使用量が微増していくことで再現している可能性が高いことを確認できます。
+  * `mysqld.exe`が次のようなエラーログを出力する
+
+    ```text
+    2018-01-18 21:12:52 3620 [ERROR] Error in accept: システムのバッファー領域が不足しているか、またはキューがいっぱいなため、ソケット操作を実行できませんでした。
+    ```
+
+  * `mysqld.exe`が停止する
+
+  * `mysqld.exe`は停止しないが、接続を受け付けない
+
+なお、ターミナルを複数立ち上げて同時に実行すると問題発生までの時間が短くなります。
+
+## 補足情報
+
+  * 再現する環境と再現しない環境があることを確認済みです。再現するかどうかの違いがどこからくるかわかっていないので、それを知りたいです。
+
+  * ストレージエンジンをMroongaからMyISAMに変更するとすでに再現している環境でも再現しなくなります。
 
 ## License
 
